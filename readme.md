@@ -7,19 +7,19 @@ This monorepo contains a simple UI library with a counter component using Snabbd
 The project follows a monorepo structure using Lerna:
 
 ```plaintext
-my-ui-library-monorepo/
+mono-repo/
   ├── packages/
   │   ├── ui-components/
   │   │   ├── src/
   │   │   │   ├── Counter.js
   │   │   │   └── App.js
-  │   │   ├── package.json
-  │   │   └── rollup.config.js
-  │   └── ui-utils/
-  │       ├── src/
-  │       │   └── ... (other utility files)
-  │       ├── package.json
-  │       └── rollup.config.js
+  │   │   
+  │   └── test/
+  │   |    └── ui-library.test.js
+  |   └── lib/
+  │       └── ui-library.js
+  |        ── index.js  
+  |  
   ├── lerna.json
   ├── package.json
   ├── index.html
