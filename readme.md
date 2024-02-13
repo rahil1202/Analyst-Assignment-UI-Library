@@ -36,5 +36,3 @@ If the webpage is not showing anything, check the following:
 
 Feel free to customize the project and use it as a starting point for your UI library! 🎉
 
-```
-
