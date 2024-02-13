@@ -26,13 +26,5 @@ mono-repo/
   └── app.js
 ```
 
-
-## Troubleshooting 🛠️
-
-If the webpage is not showing anything, check the following:
-- Open the browser's console for error messages.
-- Verify file paths and imports in app.js and Counter.js.
-- Ensure Snabbdom functions are imported correctly.
-
 Feel free to customize the project and use it as a starting point for your UI library! 🎉
 
